@@ -26,6 +26,8 @@ for changes required after enabling given [Snowflake BCR Bundle](https://docs.sn
 
 ## v2.13.x ➞ v2.14.0
 
+[//]: # (TODO [this PR]: add migration guide entry for v2)
+
 ### *(bugfix)* Fixed `snowflake_share` update failing when adding accounts to a share that already has a database granted
 
 Previously, updating the `accounts` field on the `snowflake_share` resource (e.g., adding consumer accounts after the initial creation) would fail with:
